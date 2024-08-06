@@ -1,0 +1,23 @@
+[2m2024-07-30T13:37:12.340592Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m unknown anchor at line 40 column 14
+[2m2024-07-30T13:37:27.900344Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m unknown anchor at line 40 column 14
+[2m2024-07-30T13:37:45.420220Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m unknown anchor at line 40 column 14
+[2m2024-07-30T13:44:58.879413Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m workspaces[0].bind_to_monitor: invalid type: string "1,", expected u32 at line 70 column 22
+[2m2024-07-30T13:45:53.434747Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1]: missing field `commands` at line 91 column 5
+[2m2024-07-30T13:46:21.165904Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 91 column 15
+[2m2024-07-30T13:47:08.710260Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 91 column 15
+[2m2024-07-30T13:47:28.955928Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 91 column 15
+[2m2024-07-30T13:49:53.553855Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 91 column 15
+[2m2024-07-30T13:50:03.106629Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 91 column 15
+[2m2024-07-30T13:50:41.999319Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1]: missing field `commands` at line 91 column 5
+[2m2024-07-30T13:50:53.956978Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: invalid type: string "move to workspace 2", expected a sequence at line 91 column 15
+[2m2024-07-30T13:51:05.003141Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 91 column 15
+[2m2024-07-30T14:28:36.906036Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'terminal'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2024-07-30T14:29:25.149606Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'terminal'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2024-08-06T18:50:24.589816Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[23].commands: unexpected argument found
+ at line 205 column 15
