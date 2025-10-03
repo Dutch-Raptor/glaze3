@@ -1,7 +1,7 @@
 general:
   # Commands to run when the WM has started (e.g. to run a script or launch
   # another application). Here we are running a batch script to start Zebar.
-  startup_commands: ['shell-exec %userprofile%/.glzr/zebar/start.bat', 'shell-exec gat-gwm']
+  startup_commands: ['shell-exec zebar', 'shell-exec gat-gwm']
 
   # Whether to automatically focus windows underneath the cursor.
   focus_follows_cursor: false
@@ -202,9 +202,6 @@ keybindings:
     bindings: ['alt+shift+r']
 
 
-  - commands: ['shell-exec %userprofile%/.glzr/zebar/start.bat']
-    bindings: ['ctrl+shift+alt+r']
-
   # Redraw all windows.
   - commands: ['wm-redraw']
     bindings: ['alt+shift+w']
@@ -221,6 +218,9 @@ keybindings:
 
   - commands: ['focus --workspace 3', 'shell-exec wt']
     bindings: ['shift+alt+t']
+
+  - commands: ['focus --workspace 2', 'shell-exec chrome']
+    bindings: ['shift+alt+c']
 
   # Focus the next/previous workspace defined in `workspaces` config.
   - commands: ['focus --next-workspace']
